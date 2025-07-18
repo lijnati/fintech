@@ -74,7 +74,12 @@ const Footer = () => {
         </div>
         
         <div className="mt-16 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center text-muted-foreground text-sm">
-          <div>© 2025 Cosmos Tasks. All rights reserved.</div>
+          <div className="flex flex-col md:flex-row items-center gap-2 md:gap-4">
+            <div>© 2025 Cosmos Tasks. All rights reserved.</div>
+            <div className="flex items-center gap-1">
+              Built with <span className="text-red-500">❤</span> By Yegetaneh F.
+            </div>
+          </div>
           <div className="flex gap-6 mt-4 md:mt-0">
             <a href="#" className="hover:text-foreground transition-colors">Privacy</a>
             <a href="#" className="hover:text-foreground transition-colors">Terms</a>
